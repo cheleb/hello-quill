@@ -13,6 +13,6 @@ libraryDependencies ++= Seq(
   "io.getquill" %% "quill-cassandra-zio" % "4.6.0",
   // Add for Caliban Integration
   "io.getquill" %% "quill-caliban" % "3.19.0",
-  "org.postgresql" % "postgresql" % "42.2.8",
+  "org.postgresql" % "postgresql" % "42.5.1",
   "ch.qos.logback" % "logback-classic" % "1.2.11"
 )
