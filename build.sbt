@@ -14,5 +14,5 @@ libraryDependencies ++= Seq(
   // Add for Caliban Integration
   "io.getquill" %% "quill-caliban" % "3.19.0",
   "org.postgresql" % "postgresql" % "42.5.1",
-  "ch.qos.logback" % "logback-classic" % "1.2.11"
+  "ch.qos.logback" % "logback-classic" % "1.4.5"
 )
