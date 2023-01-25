@@ -1,4 +1,4 @@
-scalaVersion := "3.2.0"
+scalaVersion := "3.2.2"
 
 libraryDependencies ++= Seq(
   // Syncronous JDBC Modules
