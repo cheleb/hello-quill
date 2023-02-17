@@ -2,7 +2,7 @@ scalaVersion := "3.2.2"
 
 libraryDependencies ++= Seq(
   // Syncronous JDBC Modules
-  "io.getquill" %% "quill-jdbc" % "4.6.0",
+  "io.getquill" %% "quill-jdbc" % "4.6.0.1",
   // Or ZIO Modules
   "io.getquill" %% "quill-jdbc-zio" % "4.6.0",
   // Or Postgres Async
