@@ -8,7 +8,7 @@ libraryDependencies ++= Seq(
   // Or Postgres Async
   "io.getquill" %% "quill-jasync-postgres" % "4.6.0.1",
   // Or Cassandra
-  "io.getquill" %% "quill-cassandra" % "4.6.0",
+  "io.getquill" %% "quill-cassandra" % "4.6.0.1",
   // Or Cassandra + ZIO
   "io.getquill" %% "quill-cassandra-zio" % "4.6.0",
   // Add for Caliban Integration
