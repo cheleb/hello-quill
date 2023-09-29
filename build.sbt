@@ -1,18 +1,20 @@
-scalaVersion := "3.2.2"
+scalaVersion := "3.3.1"
+
+val quilVersion = "4.7.3"
 
 libraryDependencies ++= Seq(
   // Syncronous JDBC Modules
-  "io.getquill" %% "quill-jdbc" % "4.6.1",
+  "io.getquill" %% "quill-jdbc" % quilVersion,
   // Or ZIO Modules
-  "io.getquill" %% "quill-jdbc-zio" % "4.6.1",
+  "io.getquill" %% "quill-jdbc-zio" % quilVersion,
   // Or Postgres Async
-  "io.getquill" %% "quill-jasync-postgres" % "4.6.1",
+  "io.getquill" %% "quill-jasync-postgres" % quilVersion,
   // Or Cassandra
-  "io.getquill" %% "quill-cassandra" % "4.6.0.1",
+  "io.getquill" %% "quill-cassandra" % quilVersion,
   // Or Cassandra + ZIO
-  "io.getquill" %% "quill-cassandra-zio" % "4.6.1",
+  "io.getquill" %% "quill-cassandra-zio" % quilVersion,
   // Add for Caliban Integration
-  "io.getquill" %% "quill-caliban" % "4.6.0.1",
+  "io.getquill" %% "quill-caliban" % quilVersion,
   "org.postgresql" % "postgresql" % "42.6.0",
-  "ch.qos.logback" % "logback-classic" % "1.4.9"
+  "ch.qos.logback" % "logback-classic" % "1.4.11"
 )
