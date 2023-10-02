@@ -1,6 +1,6 @@
 scalaVersion := "3.3.1"
 
-val quilVersion = "4.7.3"
+val quilVersion = "4.8.0"
 
 libraryDependencies ++= Seq(
   // Syncronous JDBC Modules
