@@ -1,4 +1,4 @@
-scalaVersion := "3.3.1"
+scalaVersion := "3.4.1"
 
 val quilVersion = "4.8.1"
 
