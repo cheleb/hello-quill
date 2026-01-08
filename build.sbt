@@ -7,8 +7,6 @@ libraryDependencies ++= Seq(
   "io.getquill" %% "quill-jdbc" % quilVersion,
   // Or ZIO Modules
   "io.getquill" %% "quill-jdbc-zio" % quilVersion,
-  // Or Postgres Async
-  "io.getquill" %% "quill-jasync-postgres" % quilVersion,
   // Or Cassandra
   "io.getquill" %% "quill-cassandra" % quilVersion,
   // Or Cassandra + ZIO
